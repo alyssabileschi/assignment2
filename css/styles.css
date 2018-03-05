@@ -14,7 +14,13 @@ html {
 }
 
 body {
+    background-image: url("https://images.pexels.com/photos/818650/pexels-photo-818650.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* use 100% of the view height (vh) so image doesn't repeat, but fills space instead) */
 }
+
 
 h1,
 h2 {
@@ -30,6 +36,18 @@ h2 {
 .ul-title {
     margin-top: 5%;
     margin-bottom: 5%;
+    background-color: rgb(88, 88, 88);
+    border-radius: 10px;
+    padding: 30px;
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 50%;
+    margin-left: 25%;
+    margin-bottom: 50px;
+    text-align: right;
+    color: #ffffff;
+    font-weight: 300;
+    
 }
 
 a {
@@ -96,12 +114,12 @@ img {
 
 .section-features {
     width: 50%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
-    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    padding: 30px;
     color: #000000;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.6);
     text-align: center;
 }
 
